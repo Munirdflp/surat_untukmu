@@ -1,0 +1,41 @@
+WEBSITE ROMANTIS KOSMOS 3D PREMIUM — ULTIMATE STORY EDITION
+
+Isi paket:
+- index.html: struktur website, opening sinematik, ruang surat, boneka pendamping, dan halaman akhir.
+- style.css: galaksi berlapis (bintang jauh/tengah/dekat), nebula yang bergeser pelan, halo dan tekstur bulan, partikel cahaya, boneka 3D CSS, animasi amplop/kertas, efek balik halaman, pemutar musik, dan transisi ending.
+- script.js: navigasi dua surat, animasi buka amplop dan perpindahan surat, indikator durasi/progres musik, pesan rahasia, ending konstelasi hati, tombol mulai ulang, dan parallax pointer yang ringan.
+- Firasat.mp3: lagu yang disertakan sebagai musik latar.
+
+MENJALANKAN SECARA LOKAL
+1. Ekstrak ZIP ke satu folder.
+2. Jangan pisahkan atau ubah nama index.html, style.css, script.js, dan Firasat.mp3.
+3. Buka index.html dengan Chrome atau Edge.
+4. Tekan “Masuki semestaku”. Jika browser mengizinkan, musik mulai diputar. Jika tidak, gunakan tombol “Putar Firasat”.
+5. Pada halaman utama tekan “Buka tempat kecil ini”. Amplop akan terbuka dan kertas naik sebelum kalimat pertama muncul.
+6. Tekan “Buka kalimat” untuk mengikuti kedua surat; gunakan tab jika ingin berpindah surat. Setelah surat kedua, lanjutkan ke ending, buka pesan rahasia, atau putar lagi dari awal.
+
+UNGGAH KE GITHUB PAGES
+1. Buat repositori GitHub, misalnya surat-untukmu.
+2. Unggah index.html, style.css, script.js, Firasat.mp3, dan file petunjuk ini ke folder utama repositori.
+3. Buka Settings > Pages.
+4. Pada Build and deployment, pilih Deploy from a branch, branch main, folder /(root), lalu Save.
+5. Tunggu proses publikasi selesai dan buka URL GitHub Pages yang ditampilkan.
+
+FITUR EDISI INI — MOTION FIX
+- A: Ruang kosmos dengan tiga lapisan bintang bergerak pada kecepatan berbeda, nebula bergerak perlahan, cahaya bulan yang berdenyut, dan partikel cahaya melayang.
+- B: Amplop 3D terbuka pada awal ruang surat; kertas bergerak naik, kalimat pertama muncul setelah animasi, dan perpindahan antarsurat memakai transisi seperti membalik halaman.
+- C: Dua boneka kecil bergoyang menemani surat; mereka bergerak saling mendekat saat amplop dibuka dan saat berganti surat, disertai hati/cahaya kecil.
+- D: Kontrol musik Putar/Jeda, visualisasi gelombang, waktu berjalan, dan progres lagu. Audio adalah file lokal Firasat.mp3.
+- E: Peralihan ke halaman penutup meredupkan suasana kosmos; bintang bergerak berkumpul menjadi konstelasi hati, lalu pesan penutup muncul bertahap. Ada opsi pesan rahasia dan ulang dari awal.
+- Layout responsif untuk HP dan desktop; gerakan galaksi, planet, boneka, amplop, dan ending dibuat lebih jelas agar mudah terlihat. Gerak dapat terasa lebih berat pada perangkat lama.
+
+CATATAN
+- Browser modern dapat memblokir autoplay bersuara. Website memulai percobaan audio setelah interaksi pembuka dan menyediakan tombol musik.
+- Jika repositori GitHub publik, berkas, teks surat, dan MP3 dapat diakses publik. GitHub Pages bukan sistem kata sandi.
+- Isi dua surat di script.js dipertahankan persis dari versi sebelumnya; pembaruan ini berfokus pada alur dan tampilan.
+- Google Fonts digunakan untuk peningkatan tipografi; jika tidak tersedia, font cadangan tetap digunakan.
+
+PEMERIKSAAN TERBARU
+- Aturan global yang mematikan seluruh animasi saat prefers-reduced-motion terdeteksi telah dihapus agar efek gerak yang diminta tetap terlihat.
+- Gerakan hero 3D diperkuat: boneka mengayun dan bergerak maju-mundur, planet melintas, orbit dan nebula bergerak lebih cepat, serta partikel lebih sering terlihat.
+- Untuk uji cepat, tunggu 3–5 detik di layar pembuka dan halaman utama; pergerakan dirancang agar tampak tanpa perlu menggerakkan mouse. Di desktop, gerakkan mouse di atas boneka untuk efek tilt tambahan.
